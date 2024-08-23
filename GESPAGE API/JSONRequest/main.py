@@ -148,14 +148,14 @@ def post_user_upd_balance(api_base_url, token, json_body,headers=None):
         return None
 
 #Datos
-api_base_url = "http://216.225.205.206:7180/admin"
-api_id = "doqsoft"
-api_secret = "doqsoft1"
+api_base_url = "URL HERE"
+api_id = "ID HERE"
+api_secret = "SECRET HERE"
 
 #Json Bodys
 json_body_userGetInfo = {
     "username":"",
-    "cardid":"432111"
+    "cardid":""
 }
 
 json_body_userAdd = {
@@ -164,10 +164,10 @@ json_body_userAdd = {
     "cardid":"12111223",
     "printcode":"4433323",
     "display_name":"TestV2",
-    "email":"test@doqsoft.com",
+    "email":"test@google.com",
     "comment":"testAPI",
     "limited": True,
-    "department":"doqsoft",
+    "department":"TI",
 }
 
 json_body_userEdit = {
@@ -182,7 +182,7 @@ json_body_userEdit = {
 }
 
 json_body_userDelete = {
-    "username":"Eric Test"
+    "username":"Test"
 }
 
 json_body_userUpdBalance = {
